@@ -4,8 +4,8 @@ def solution(n):
         if n % 2 == 1:
             if i % 2 == 1:
                 answer += i
-            else:
-                continue
+            # else:
+            #     continue
         if n % 2 == 0:
             if i % 2 == 0:
                 answer += i**2
