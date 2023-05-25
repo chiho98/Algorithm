@@ -4,4 +4,5 @@ function solution(my_string, index_list) {
         answer += my_string[index_list[i]];
     }
     return answer;
+    // return my_string.map(())
 }
